@@ -59,6 +59,6 @@ resource "aws_security_group_rule" "phpmyadmin" {
 
 # create instance profile for lab role
 resource "aws_iam_instance_profile" "default" {
-  name = "LabRole"
+  name = "LabRole2"
   role = "LabRole"
 }
